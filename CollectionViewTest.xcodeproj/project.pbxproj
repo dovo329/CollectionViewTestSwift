@@ -14,6 +14,7 @@
 		A55A7BA41B29002600DD1185 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55A7BA31B29002600DD1185 /* Images.xcassets */; };
 		A55A7BA71B29002600DD1185 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A55A7BA51B29002600DD1185 /* LaunchScreen.xib */; };
 		A55A7BB31B29002600DD1185 /* CollectionViewTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A7BB21B29002600DD1185 /* CollectionViewTestTests.swift */; };
+		A55A7BBD1B2904EA00DD1185 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55A7BBC1B2904EA00DD1185 /* CustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A55A7BAC1B29002600DD1185 /* CollectionViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A55A7BB11B29002600DD1185 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A55A7BB21B29002600DD1185 /* CollectionViewTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTestTests.swift; sourceTree = "<group>"; };
+		A55A7BBC1B2904EA00DD1185 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				A55A7B991B29002600DD1185 /* AppDelegate.swift */,
 				A55A7B9E1B29002600DD1185 /* ViewController.swift */,
+				A55A7BBC1B2904EA00DD1185 /* CustomCollectionViewCell.swift */,
 				A55A7BA01B29002600DD1185 /* Main.storyboard */,
 				A55A7BA31B29002600DD1185 /* Images.xcassets */,
 				A55A7BA51B29002600DD1185 /* LaunchScreen.xib */,
@@ -218,6 +221,7 @@
 				A55A7B9F1B29002600DD1185 /* ViewController.swift in Sources */,
 				A55A7B9D1B29002600DD1185 /* CollectionViewTest.xcdatamodeld in Sources */,
 				A55A7B9A1B29002600DD1185 /* AppDelegate.swift in Sources */,
+				A55A7BBD1B2904EA00DD1185 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,8 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
         collectionView = UICollectionView(frame: self.view.frame, collectionViewLayout: layout)
         collectionView!.dataSource = self
         collectionView!.delegate = self
-        collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        //collectionView!.registerClass(UICollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
+        collectionView!.registerClass(CustomCollectionViewCell.self, forCellWithReuseIdentifier: "Cell")
         collectionView!.backgroundColor = UIColor.whiteColor()
         self.view.addSubview(collectionView!)
         self.collectionViewConstraints()
@@ -80,10 +81,15 @@ class ViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICo
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! UICollectionViewCell
+        //let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! UICollectionViewCell
+        /*let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CustomCollectionViewCell
         cell.backgroundColor = UIColor.orangeColor()
+        return cell*/
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! CustomCollectionViewCell
+        cell.textLabel.text = "Text"
+        cell.imageView.image = UIImage(named: "star")
         return cell
     }
-
 }
 
