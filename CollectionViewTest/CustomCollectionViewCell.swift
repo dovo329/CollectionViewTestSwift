@@ -9,23 +9,15 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    let textLabel: UILabel!
-    let imageView: UIImageView!
+    
+    var cardView : UIView?
     
     override init(frame: CGRect) {
-        imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height*2/3))
-        imageView.contentMode = UIViewContentMode.ScaleAspectFit
-        
-        
-        let textFrame = CGRect(x: 0, y: imageView.frame.size.height, width: frame.size.width, height: frame.size.height/3)
-        textLabel = UILabel(frame: textFrame)
-        textLabel.font = UIFont.systemFontOfSize(UIFont.smallSystemFontSize())
-        textLabel.textAlignment = .Center
+        self.cardView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: frame.size.width, height:frame.size.height))
         
         super.init(frame: frame)
-        
-        contentView.addSubview(imageView)
-        contentView.addSubview(textLabel)
+
+        contentView.addSubview(self.cardView!)
     }
 
     required init(coder aDecoder: NSCoder) {

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>5E9BA68F-ADA8-4539-9CBE-5FB94036F8DD</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>CollectionViewTest</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>18D1B30927BA80DB0F05FCD8624C324D0A4D6405</key>
 		<string>https://github.com/dovo329/CollectionViewTestSwift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>CollectionViewTest.xcodeproj/project.xcworkspace</string>
+	<string>CollectionViewTest.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>18D1B30927BA80DB0F05FCD8624C324D0A4D6405</key>
